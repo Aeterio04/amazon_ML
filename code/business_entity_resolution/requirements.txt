@@ -1,0 +1,12 @@
+# Amazon ML Challenge 2026: Business Entity Resolution
+# Core dependencies for Track C (Embedding Retrieval + LightGBM + Cross-Encoder)
+numpy>=1.24.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+rapidfuzz>=3.0.0
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4

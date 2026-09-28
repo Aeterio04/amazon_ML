@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Datasets (> 100 MB)
+data/student_resource/dataset/
+data/__MACOSX/
+dataset/
+*.tsv
+!data/student_resource/sample_*.tsv
+
+# Large Binary & Embedding Files
+*.npy
+*.npz
+*.parquet
+*.bin
+*.tmp
+*.h5
+
+# Work, Output & Logs
+work/
+output/
+*.log
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
